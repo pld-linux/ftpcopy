@@ -24,19 +24,17 @@ serwerów FTP, które wspieraj± format listowania katalogów EPLF, lecz
 wspiera te¿ tradycyjny format, /bin/ls . Mo¿na go równie¿ u¿ywaæ do
 zwyk³ego kopiowania plików. Obs³uguje protoko³y IPv4 oraz IPv6.
 
-%define 	_package	package/
-
 %prep
 %setup -q -n web/%{name}-%{version}
-%{_package}compile
-%{_package}check
+package/compile
+package/check
 
 %install
 rm -rf $RPM_BUILD_ROOT
 # create directories if necessary
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
-install command/* $RPM_BUILD_ROOT%{_bindir}/
-install doc/*	$RPM_BUILD_ROOT%{_mandir}/man1/
+install command/* $RPM_BUILD_ROOT%{_bindir}
+install doc/* $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
