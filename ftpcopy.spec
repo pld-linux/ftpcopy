@@ -1,5 +1,5 @@
-Summary:	ftpcopy - a tool for create and maintain a ftp mirror
-Summary(pl):	ftpcopy - narzêdzie do tworzenia i uaktualniania mirrora ftp
+Summary:	ftpcopy - a tool for create and maintain a FTP mirror
+Summary(pl):	ftpcopy - narzêdzie do tworzenia i uaktualniania mirrora FTP
 Name:		ftpcopy
 Version:	0.6.7
 Release:	1
