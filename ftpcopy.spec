@@ -24,7 +24,7 @@ ftpcopy jest prostym klijentem FTP kopjuj±cum pliki i katalogi
 %define 	_package	package/
 
 %prep
-%setup -q -n web/%{name}-%{version} -a0
+%setup -q -n web/%{name}-%{version}
 %{_package}compile
 %{_package}check
 
