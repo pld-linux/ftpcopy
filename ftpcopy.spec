@@ -1,12 +1,12 @@
 Summary:	ftpcopy - a tool for create and maintain a ftp mirror
 Summary(pl):	ftpcopy - narzêdzie do tworzenia i uaktualniania mirrora ftp
 Name:		ftpcopy
-Version:	0.6.4
+Version:	0.6.7
 Release:	1
 License:	GPL v2
 Group:		Applications/Networking
 Source0:	ftp://www.ohse.de/uwe/ftpcopy/%{name}-%{version}.tar.gz
-# Source0-md5:	e6883a23ef664c059d9d0d34eb1501cd
+# Source0-md5:	78d5245970803230f0f22f0f040a58ef
 URL:		http://www.ohse.de/uwe/ftpcopy.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
