@@ -1,5 +1,5 @@
 Summary:	ftpcopy - a tool for create and maintain a FTP mirror
-Summary(pl):	ftpcopy - narzêdzie do tworzenia i uaktualniania mirrora FTP
+Summary(pl.UTF-8):   ftpcopy - narzÄ™dzie do tworzenia i uaktualniania mirrora FTP
 Name:		ftpcopy
 Version:	0.6.7
 Release:	1
@@ -17,12 +17,12 @@ which support the EPLF directory listing format, but it also supports
 the traditional listing format /bin/ls and may also be used to simply
 copy files. I supports IPv4 and IPv6.
 
-%description -l pl
-ftpcopy jest prostym klientem FTP kopiuj±cym pliki i katalogi
-(uaktualniaj±c) z serwera FTP. Zosta³ napisany z my¶l± o mirrorowaniu
-serwerów FTP, które wspieraj± format listowania katalogów EPLF, lecz
-wspiera te¿ tradycyjny format, /bin/ls . Mo¿na go równie¿ u¿ywaæ do
-zwyk³ego kopiowania plików. Obs³uguje protoko³y IPv4 oraz IPv6.
+%description -l pl.UTF-8
+ftpcopy jest prostym klientem FTP kopiujÄ…cym pliki i katalogi
+(uaktualniajÄ…c) z serwera FTP. ZostaÅ‚ napisany z myÅ›lÄ… o mirrorowaniu
+serwerÃ³w FTP, ktÃ³re wspierajÄ… format listowania katalogÃ³w EPLF, lecz
+wspiera teÅ¼ tradycyjny format, /bin/ls . MoÅ¼na go rÃ³wnieÅ¼ uÅ¼ywaÄ‡ do
+zwykÅ‚ego kopiowania plikÃ³w. ObsÅ‚uguje protokoÅ‚y IPv4 oraz IPv6.
 
 %prep
 %setup -q -n web
